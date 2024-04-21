@@ -66,8 +66,9 @@ public class MainActivity extends AppCompatActivity
         generateButton.setOnClickListener(v -> GenerateButtonPress());
 
         saltDialogButton.setOnClickListener(v -> {
-            Intent saltDialogIntent = new Intent("ca.markstrendin.markspasswordgenerator.SALTDIALOG");
+            Intent saltDialogIntent = new Intent(MainActivity.this, SaltDialog.class);
             startActivity(saltDialogIntent);
+
         });
 
         btnAlphaSel8.setOnClickListener(v -> {
@@ -109,7 +110,6 @@ public class MainActivity extends AppCompatActivity
             MessageBox("First 20 characters copied to clipboard!");
             copyCharactersToClipboard(20,txtOutput_Special.getText().toString());
         });
-
     }
 
 

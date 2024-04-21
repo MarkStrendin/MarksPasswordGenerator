@@ -15,10 +15,10 @@
         <activity
             android:name=".MainActivity"
             android:label="Mark's Password Generator"
+            android:theme="@style/Theme.MarksPasswordGenerator"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -26,6 +26,7 @@
             android:name=".SaltDialog"
             android:label="Mark's Password Generator"
             android:exported="true"
+            android:theme="@style/Theme.MarksPasswordGenerator"
             >
             <intent-filter>
                 <action android:name="ca.markstrendin.markspasswordgenerator.SALTDIALOG" />
