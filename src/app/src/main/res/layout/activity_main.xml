@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="47dp" />
+
+	<EditText
+		android:id="@+id/txtInput"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:hint="Input"
+		android:inputType="textNoSuggestions" />
+
+
+	<Button
+		android:id="@+id/btnGenerate"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:text="@string/button_generate"
+		android:textSize="20sp"
+		app:cornerRadius="@dimen/default_button_corner_radius" />
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="44dp" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginBottom="0dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="5dp"
+		android:text="@string/label_alphaonly"
+		android:textAlignment="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold" />
+
+	<EditText
+		android:id="@+id/txtOutput_Alpha"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginBottom="0dp"
+		android:enabled="true"
+		android:gravity="top"
+		android:inputType="textNoSuggestions"
+		android:minHeight="48dp" />
+
+	<LinearLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginTop="0dp"
+		android:gravity="center">
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnAlphaSel8"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_8"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnAlphaSel12"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_12"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnAlphaSel15"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_15"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnAlphaSel20"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_20"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+	</LinearLayout>
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="57dp" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginBottom="0dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="5dp"
+		android:text="@string/label_specialchars"
+		android:textAlignment="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold" />
+
+	<EditText
+		android:id="@+id/txtOutput_Special"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginBottom="0dp"
+		android:enabled="true"
+		android:gravity="top"
+		android:inputType="textNoSuggestions"
+		android:minHeight="48dp" />
+
+	<LinearLayout
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginBottom="0dp"
+		android:gravity="center">
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnSpecialSel8"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_8"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnSpecialSel12"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_12"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnSpecialSel15"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_15"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/btnSpecialSel20"
+			android:layout_width="75dp"
+			android:layout_height="wrap_content"
+			android:enabled="false"
+			android:text="@string/button_gen_20"
+			app:cornerRadius="@dimen/default_button_corner_radius" />
+
+		<Space
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+
+	</LinearLayout>
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="90dp" />
+
+	<Button
+		android:id="@+id/btnOpenSaltDialog"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_marginTop="20dp"
+		android:text="@string/button_managekey" />
+
+</LinearLayout>

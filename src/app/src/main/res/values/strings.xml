@@ -1,3 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MarksPasswordGenerator</string>
+    <string name="app_name">Mark\'s Password Generator</string>
+    <string name="label_salt">Salt value (optional)</string>
+    <string name="label_input">Input value</string>
+    <string name="button_generate">Generate!</string>
+    <string name="button_gen_8">8</string>
+    <string name="button_gen_12">12</string>
+    <string name="button_gen_15">15</string>
+    <string name="button_gen_20">20</string>
+    <string name="button_selectchars">Copy characters to clipboard:</string>
+    <string name="button_managekey">Manage Master Key</string>
+    <string name="app_title">Mark\'s Password Generator</string>
+    <string name="label_alphaonly">Alphanumeric Only</string>
+    <string name="label_specialchars">With Special Characters</string>
+    <string name="button_save">Save</string>
+    <string name="label_saltdialogtitle">Configure Master Key</string>
+    <string name="label_salt_expl_1">The Master Key is used with your input to generate a unique password.</string>
+    <string name="label_salt_expl_2">If you have multiple devices, you should make sure that this Master Key is the same in both locations.</string>
+    <string name="label_salt_expl_3">The Master Key can be any length, but generally the more characters, the better.</string>
+    <string name="label_salt_expl_4">If left empty, a random key will be generated.</string>
+    <string name="label_salt_expl_5"></string>
+    <string name="button_close">Close without saving</string>
 </resources>
