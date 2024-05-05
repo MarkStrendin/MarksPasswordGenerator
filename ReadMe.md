@@ -12,7 +12,7 @@ You can then type in a word into the "input" field, and it will generate two lon
 
 This app allows you to remember simpler words (like "facebook") that translate into a strong(er) password that you can use for that service. All you need to remember is what your input string is for each service. The same input will always produce the same password.
 
-![Screenshot](https://github.com/MarkStrendin/MarksPasswordGenerator/screenshot.png)
+<img src="https://github.com/MarkStrendin/MarksPasswordGenerator/blob/main/screenshot.png" width="300">
 
 # How does this improve security?
 Nobody knows what you input for each password, so for example, for a password for Facebook, you might type in "facebook", "Facebook", "f.a.c.e.b.o.o.k.", "FaCeBoOk", "Facebook.com", "Mark-Facebook", "BookFace69" etc., and each of those will generate completely different passwords. I encourage you to choose something memorable for you, but not easily guessable by others.
